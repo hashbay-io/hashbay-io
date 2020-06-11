@@ -19,7 +19,7 @@ function App() {
   web3 = new Web3(Web3.givenProvider);
 
   contracts = {
-    HashBay: new web3.eth.Contract(HashBayAbi, "0x7f5E6Ec8494CCE4e4A6E943DE62B711CE3Fa081C"),
+    HashBay: new web3.eth.Contract(HashBayAbi, "0x4986a9b27b62090222b2474b391fb6cf18538705"),
   };
 
   const props = {
